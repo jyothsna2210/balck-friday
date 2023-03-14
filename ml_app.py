@@ -66,7 +66,7 @@ def run_ml():
 		# scaled_sample = scale_data(np.array(single_sample).reshape(1,-1))
 		# st.write(scaled_sample)
 		sample = np.array(single_sample).reshape(1,-1)
-		model = load_model("C:/Users/Jyothsna/OneDrive/Desktop/clone/black-friday-sales_streamlit-app/models/lr2_bf_sales_model_23_oct.pkl")
+		model = load_model("lr2_bf_sales_model_23_oct.pkl")
 		prediction = model.predict(sample)
 
 		st.info("Predicted Purchase")
