@@ -14,7 +14,7 @@ def load_data(data):
 	return df
 
 def run_home_page():
-	df = load_data("C:/Users/Jyothsna/OneDrive/Desktop/clone/black-friday-sales_streamlit-app/data/thanksgiving_in_multi_lang.csv")
+	df = load_data("thanksgiving_in_multi_lang.csv")
 	# st.dataframe(df)
 
 	
